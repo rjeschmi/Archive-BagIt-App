@@ -6,6 +6,6 @@ Archive::BagIt::App - The MooseX::App that bagit.pl runs
 
 =head1 VERSION
 
-version 0.001
+version 0.046
 
 =cut
