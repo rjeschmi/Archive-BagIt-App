@@ -1,6 +1,7 @@
 Revision history for Archive-BagIt-App
 
 {{$NEXT}}
+  - Bumping version to a version newer than Archive-BagIt (from which this is decended)
 
 0.002     2014-11-01
   - Create a test arch
