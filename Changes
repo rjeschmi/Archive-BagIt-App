@@ -1,6 +1,8 @@
 Revision history for Archive-BagIt-App
 
 {{$NEXT}}
+
+0.002     2014-11-01
   - Create a test arch
   - fixing against MooseX-App-Cmd
 
