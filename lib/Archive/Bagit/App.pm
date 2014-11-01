@@ -1,5 +1,6 @@
 package Archive::BagIt::App;
-
+use strict;
+use warnings;
 use MooseX::App;
 
 
