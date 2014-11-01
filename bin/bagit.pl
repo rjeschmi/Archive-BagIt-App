@@ -1,5 +1,7 @@
 #!/usr/bin/env perl 
 
+# PODNAME: bagit.pl
+
 use strict;
 use warnings;
 
