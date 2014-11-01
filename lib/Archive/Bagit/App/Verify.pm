@@ -1,5 +1,10 @@
 package Archive::BagIt::App::Verify;
 
+use strict;
+use warnings;
+
+# VERSION
+
 use MooseX::App::Command;
 
 parameter 'bag_path' => (
@@ -20,6 +25,10 @@ option 'fast' => (
   isa => 'Bool',
   documentation => q[use Archive::BagIt::Fast instead...],
 );
+
+=for Pod::Coverage abstract run
+
+=cut
 
 sub abstract {
   return 'verifies a valid bag';
@@ -50,7 +59,7 @@ sub run {
   }
 }
 
-1; 
+1
 
 
 __END__

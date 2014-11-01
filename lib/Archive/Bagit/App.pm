@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use MooseX::App;
 
+# VERSION
 
 1;
 

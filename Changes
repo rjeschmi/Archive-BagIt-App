@@ -4,5 +4,6 @@ Revision history for Archive-BagIt-App
   - Create a test arch
   - fixing against MooseX-App-Cmd
 
-0.001   First release
+0.001   2014-10-20
+    - First release
 

@@ -1,6 +1,7 @@
-#!/usr/bin/env perl 
+#!/usr/bin/env perl
 
 # PODNAME: bagit.pl
+# ABSTRACT: commandline interface to the Archive::BagIt library
 
 use strict;
 use warnings;
