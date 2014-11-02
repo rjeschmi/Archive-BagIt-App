@@ -4,7 +4,7 @@ Archive::BagIt::App
 
 # VERSION
 
-version 0.047
+version 0.048
 
 # NAME
 

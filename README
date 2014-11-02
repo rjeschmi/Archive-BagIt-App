@@ -2,7 +2,7 @@ NAME
     Archive::BagIt::App
 
 VERSION
-    version 0.047
+    version 0.048
 
 NAME
     Archive::BagIt::App - The MooseX::App that bagit.pl runs

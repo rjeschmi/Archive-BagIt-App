@@ -2,6 +2,9 @@ Revision history for Archive-BagIt-App
 
 {{$NEXT}}
 
+0.048     2014-11-01
+  - Signing this release
+
 0.047     2014-11-01
   - Bumping version to a version newer than Archive-BagIt (from which this is decended)
 
