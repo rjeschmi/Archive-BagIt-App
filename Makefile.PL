@@ -33,6 +33,7 @@ my %WriteMakefileArgs = (
     "Moose" => 0,
     "MooseX::App" => 0,
     "MooseX::App::Command" => 0,
+    "namespace::autoclean" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -42,7 +43,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.049",
+  "VERSION" => "0.050",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -62,6 +63,7 @@ my %FallbackPrereqs = (
   "MooseX::App" => 0,
   "MooseX::App::Command" => 0,
   "Test::More" => 0,
+  "namespace::autoclean" => 0,
   "strict" => 0,
   "warnings" => 0
 );

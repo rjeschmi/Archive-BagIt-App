@@ -4,8 +4,11 @@ use strict;
 use warnings;
 
 # VERSION
-
+use Moose;
 use MooseX::App::Command;
+
+use namespace::autoclean;
+
 
 parameter 'bag_path' => (
   is=>'rw',
@@ -59,7 +62,9 @@ sub run {
   }
 }
 
-1
+__PACKAGE__->meta->make_immutable;
+
+1;
 
 
 __END__

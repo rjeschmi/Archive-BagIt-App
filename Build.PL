@@ -18,7 +18,7 @@ my %module_build_args = (
     "Rob Schmidt <rjeschmi\@gmail.com>"
   ],
   "dist_name" => "Archive-BagIt-App",
-  "dist_version" => "0.049",
+  "dist_version" => "0.050",
   "license" => "perl",
   "module_name" => "Archive::BagIt::App",
   "recommends" => {},
@@ -31,6 +31,7 @@ my %module_build_args = (
     "Moose" => 0,
     "MooseX::App" => 0,
     "MooseX::App::Command" => 0,
+    "namespace::autoclean" => 0,
     "perl" => "5.006",
     "strict" => 0,
     "warnings" => 0
